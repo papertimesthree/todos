@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  Alert,
-  Badge,
-  Button,
-  ToggleButton,
-  ToggleButtonGroup
-} from "react-bootstrap";
+import {ToggleButton,ToggleButtonGroup} from "react-bootstrap";
 import { fstore, increment } from "./fb";
 import "./styles.css";
 
